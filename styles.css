@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #B884E5, #878AF1);
+    height: 100vh;
+}
+
+.container {
+    width: 288px;
+    height: 288px;
+    margin: 18vh auto;
+    background-color: white;
+    position: relative;
+    box-shadow: 1px 1px 10px .5px #806AB5;
+}
+
+.nav {
+    height: 5rem;
+    background-image: linear-gradient(to right, #BA7ED9, #A479D1);
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-right: 24px;
+    justify-content: space-between;
+}
+
+.photo {
+    background-color: white;
+    border-radius: 50%;
+    padding: 3.2px;
+    width: 20.8px;
+    height: 20.8px;
+    margin-left: 16px;
+}
+
+.nav::before {
+    content: '';
+    background-color: white;
+    width: 2.4px;
+    height: 48px;
+    position: absolute;
+    left: 25.44px;
+    top: 0;
+}
+
+.body {
+    height: 144px;
+    background-color: #5F5280;
+    position: relative;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+
+.phot {
+    margin-left: 8px;
+}
+
+.footer {
+    height: 64px;
+    background-image: linear-gradient(to right, #BA7ED9, #A479D1);
+}
+
+.holi {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    position: absolute;
+}
+
+.name {
+    margin-left: 12.8px;
+    color: #DDDAE2;
+    font-weight: 500;
+    margin-top: -8px;
+    font-size: small;
+}
+
+.dot {
+    width: .2rem;
+    height: .2rem;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 1.5rem;
+    margin-top: -.5rem;
+}
+
+.dot::before {
+    content: '';
+    background-color: #AFA9C0;
+    width: .1rem;
+    height: 1.5rem;
+    position: absolute;
+    top: -2rem;
+    left: 1.56rem;
+}
+
+.dot::after {
+    content: '';
+    background-color: #AFA9C0;
+    width: .12rem;
+    height: 1rem;
+    position: absolute;
+    top: 13px;
+    left: 1.52rem;
+}
+
+.doll {
+    margin-top: 4rem;
+    position: absolute;
+    margin-left: 1.56rem;
+    display: flex;
+    align-items: center;
+}
+
+.dott {
+    width: .25rem;
+    height: .25rem;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    left: -.1rem;
+}
+
+.namee {
+    margin-left: .98rem;
+    color: #DDDAE2;
+    font-weight: 500;
+    font-size: small;
+}
+
+.dott::after {
+    content: '';
+    background-color: #AFA9C0;
+    width: .12rem;
+    height: 1rem;
+    position: absolute;
+    top: 18px;
+    left: 1px;
+}
+
+.dope {
+    margin-top: 6.3rem;
+    position: absolute;
+    left: 1.56rem;
+}
+
+.dottt {
+    width: .25rem;
+    height: .25rem;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: .55rem;
+    position: absolute;
+    margin-left: -.09rem;
+}
+
+.nameee {
+    margin-left: 1rem;
+    color: #DDDAE2;
+    font-weight: 500;
+    font-size: small;
+}
+
+.dottt:after {
+    content: '';
+    background-color: #AFA9C0;
+    width: .12rem;
+    height: 1.7rem;
+    position: absolute;
+    top: 8px;
+    left: .05rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.phop {
+    color: white;
+    font-weight: 500;
+    margin-left: .5rem;
+}
+
+.footer::before {
+    content: '';
+    background-color: white;
+    width: .15rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 1.51rem;
+    top: 14rem;
+}
+
+.footer::after {
+    content: '';
+    background-color: white;
+    width: .15rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 1.51rem;
+    top: 16.5rem;
+}
+
+.point:hover {
+    cursor: pointer;
+    color: #F6FEFF;
+}
+
+.poco:hover {
+    cursor: context-menu;
+}
